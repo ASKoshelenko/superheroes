@@ -32,7 +32,7 @@ class SuperheroController {
             let {universeId, typeId, limit, page} = req.query
             page = page || 1
 
-            limit = limit || 2
+            limit = limit || 5
 
             let offset = page * limit - limit
             let superheroes;
