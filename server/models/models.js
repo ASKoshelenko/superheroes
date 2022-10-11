@@ -23,7 +23,7 @@ const Superhero = sequelize.define('superhero', {
     origin_description: {type: DataTypes.STRING, unique: true, allowNull: false},
     super_powers: {type: DataTypes.STRING, unique: true, allowNull: false},
     catch_phrase: {type: DataTypes.STRING, unique: true, allowNull: false},
-    images: {type: DataTypes.STRING, allowNull: false},
+    img: {type: DataTypes.STRING, allowNull: false},
 })
 
 const Type = sequelize.define('type', {
