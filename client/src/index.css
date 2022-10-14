@@ -68,20 +68,20 @@ body, html {
   display: block;
   padding: 5px;
   margin: 5px;
-  border: 2px solid;
+  
   border-radius: 5%;
   cursor: pointer;
   text-align: center;
   font-style: italic;
   background-color: black;
   color: white;
+  background-color: transparent;
+  border: none;
 }
 
 .card:hover {
-  background-color: rgb(235, 240, 240);
-  color: black;
-  border-color: rgb(0, 187, 255);
-  border-radius: 5%;
+  border: none;
+  border: 2px solid;
 }
 
 .pagination {
@@ -114,4 +114,8 @@ body, html {
 
 .pb-2 {
   text-shadow: 1px 1px 4px white, 0 0 3em blue, 0 0 0.2em yellow;
+}
+
+.row {
+  color: white;
 }
