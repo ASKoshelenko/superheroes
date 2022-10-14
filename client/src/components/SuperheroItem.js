@@ -16,7 +16,7 @@ const SuperheroItem = ({superhero}) => {
                         <div>{superhero.catch_phrase}</div>
                     </div> */}
                 </div>
-                <div>{superhero.name}</div>
+                <div><b>{superhero.name}</b></div>
             </Card>
         </Col>
     );

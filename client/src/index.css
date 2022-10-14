@@ -2,6 +2,11 @@ body, html {
   height: 100%;
   /* text-shadow: 1px 1px 4px white, 0 0 3em blue, 0 0 0.2em yellow; */
 }
+
+h1 {
+  text-shadow: 1px 1px 4px white, 0 0 3em blue, 0 0 0.2em yellow;
+
+}
 .bgstore {
   background-image: url("./img/superheroes.jpg");
   height: 100vh;
@@ -67,8 +72,7 @@ body, html {
 .card {
   display: block;
   padding: 5px;
-  margin: 5px;
-  
+  margin: 5px; 
   border-radius: 5%;
   cursor: pointer;
   text-align: center;
@@ -80,7 +84,6 @@ body, html {
 }
 
 .card:hover {
-  border: none;
   border: 2px solid;
 }
 
@@ -110,10 +113,6 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.pb-2 {
-  text-shadow: 1px 1px 4px white, 0 0 3em blue, 0 0 0.2em yellow;
 }
 
 .row {
